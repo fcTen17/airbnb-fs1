@@ -42,6 +42,9 @@ gem 'aws-sdk-s3', '~> 1.112'
 # Webrick
 gem "webrick", "~> 1.7"
 
+# Use Stripe for receiving payments
+gem 'stripe'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
