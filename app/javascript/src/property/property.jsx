@@ -13,6 +13,8 @@ class Property extends React.Component {
   }
 
   componentDidMount() {
+    console.log(process.env.STRIPE_PUBLISHABLE_KEY);
+
     fetch(`/api/properties/${this.props.property_id}`)
       .then(handleErrors)
       .then(data => {
